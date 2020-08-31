@@ -1,0 +1,52 @@
+.app-preloader-small {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  display: flex;
+  z-index: 4;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+
+  span {
+    display: inline-block;
+    margin-right: 2px;
+    width: 7px;
+    height: 22px;
+    background-color: #3498db;
+
+    &:nth-child(1) {
+      animation: grow 1s ease-in-out infinite;
+    }
+
+    &:nth-child(2) {
+      animation: grow 1s ease-in-out 0.15s infinite;
+    }
+
+    &:nth-child(3) {
+      animation: grow 1s ease-in-out 0.30s infinite;
+    }
+
+    &:nth-child(4) {
+      animation: grow 1s ease-in-out 0.45s infinite;
+    }
+
+  }
+}
+
+@keyframes grow {
+  0%, 100% {
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+
+  50% {
+    -webkit-transform: scaleY(1.8);
+    -ms-transform: scaleY(1.8);
+    -o-transform: scaleY(1.8);
+    transform: scaleY(1.8);
+  }
+}

@@ -1,0 +1,1 @@
+export RestaurantsNameFormatter from './RestaurantsNameFormatter';

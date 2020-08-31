@@ -1,0 +1,51 @@
+.restaurant-modal {
+
+  &__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &__divider {
+    margin-left: 0 !important;
+  }
+
+  &__content-left {
+    width: 48%;
+  }
+
+  &__content-right {
+    width: 48%;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center  !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+    width: 500px;
+
+    margin: 20px auto 20px !important;
+
+    &-save-add {
+      background-color: #4fb55b  !important;
+      width: 100%;
+    }
+
+    &-cancel {
+      width: 35%;
+      margin-bottom: 20px !important;
+      background-color: #d54053  !important;
+    }
+
+    &-save-close {
+      width: 35%;
+      margin-bottom: 20px !important;
+    }
+  }
+}
+
+
+.rc-time-picker-panel  {
+      z-index: 1000000000000 !important;
+}

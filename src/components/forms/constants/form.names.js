@@ -1,0 +1,6 @@
+export const SIZES_FORM = 'SIZES';
+export const EXTRAS_FORM = 'EXTRAS';
+export const CATEGORY_INFO_FORM = 'CATEGORY_MAIN_INFO';
+export const DISH_INFO_FORM = 'DISH_INFO_FORM';
+export const ORDER_ITEM_FORM = 'ORDER_ITEM_FORM';
+export const CLIENT_INFO_FORM = 'CLIENT_INFO_FORM';

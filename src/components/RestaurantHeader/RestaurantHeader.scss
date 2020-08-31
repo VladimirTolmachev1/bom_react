@@ -1,0 +1,100 @@
+.restaurant-header {
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center center;
+    max-height: 300px;
+
+
+    &__logo {
+        height: 150px;
+        width: 150px;
+        border: 3px solid white;
+        //object-fit: cover;
+        object-fit: contain;
+        object-position: center;
+        position: absolute;
+        background-color: white;
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+        top: 0;
+        left: 0;
+        transform: translate(10px, -85%);
+
+        @media screen and (max-width: 1024px) {
+            left: 50%;
+            top: -50px;
+            transform: translate(-50%, -85%);
+        }
+    }
+
+    &__meta {
+        position: relative;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    &__meta-container {
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        @media screen and (max-width: 1024px) {
+            justify-content: center;
+            height: 100px;
+        }
+    }
+
+    &__name {
+        color: white;
+        //margin-right: 30px;
+        text-transform: uppercase;
+        float: left;
+        display: block;
+        margin-left: 183px;
+
+        @media screen and (max-width: 1024px) {
+            margin-left: 0;
+            float: none;
+            text-align: center;
+        }
+    }
+
+    &__address {
+        float: right;
+        color: white;
+        padding-top: 5px;
+        @media screen and (max-width: 1024px) {
+            padding-top: 0px;
+            margin-left: 0;
+            float: none;
+            text-align: center;
+        }
+    }
+}
+
+.header-static-container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0px 5px;
+    position: relative;
+}
+
+.display-none{
+    display: none;
+}
+
+.phone-number{
+    padding-left: 20px;
+    @media screen and (max-width: 1024px) {
+        white-space: pre;
+    }
+}
+
+.phone {
+    padding-left: 0.7rem;
+}
+
+.header_city{
+    text-transform: capitalize
+}

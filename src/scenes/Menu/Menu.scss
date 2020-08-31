@@ -1,0 +1,60 @@
+.app-static-container.menu-container {
+  margin-top: 30px;
+}
+
+.loader.menu-client-loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu {
+  &__add-dish-btn {
+    margin-left: 20px;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+ &__publish-btn {
+   color: white;
+   width: 100%;
+   margin-top: 20px;
+ }
+
+  &__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 500px;
+
+
+    @media screen and (max-width: 768px)  {
+     flex-direction: column;
+    }
+  }
+
+  &__content-aside {
+    width: 23%;
+
+    @media screen and (max-width: 1024px)  {
+      width: 100%;
+     }
+  }
+}
+
+.menu-client__tabs {
+  margin-bottom: 20px;
+
+  &-item {
+    @media screen and (max-width: 768px)  {
+      width: 50%;
+     }
+  }
+}
+

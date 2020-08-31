@@ -1,0 +1,55 @@
+import { ReduxCrudService } from '../../services';
+
+export const resource = '/restaurant';
+
+export const {
+  GET: [
+    GET_RESTAURANTS_LIST_REQUEST,
+    GET_RESTAURANTS_LIST_SUCCESS,
+    GET_RESTAURANTS_LIST_ERROR,
+  ],
+
+  POST: [
+    CREATE_RESTAURANT_REQUEST,
+    CREATE_RESTAURANT_SUCCESS,
+    CREATE_RESTAURANT_ERROR,
+  ],
+
+  GET_BY_ID: [
+    GET_RESTAURANT_BY_ID_REQUEST,
+    GET_RESTAURANT_BY_ID_SUCCESS,
+    GET_RESTAURANT_BY_ID_ERROR,
+  ],
+
+  PATCH: [
+    UPDATE_RESTAURANT_REQUEST,
+    UPDATE_RESTAURANT_SUCCESS,
+    UPDATE_RESTAURANT_ERROR,
+  ],
+
+  DELETE: [
+    DELETE_RESTAURANT_REQUEST,
+    DELETE_RESTAURANT_SUCCESS,
+    DELETE_RESTAURANT_ERROR,
+  ],
+} = ReduxCrudService.getActionCrudTypes(resource);
+
+export const GET_RESTAURANT_FOR_CLIENT_REQUEST =
+  'GET_RESTAURANT_FOR_CLIENT_REQUEST';
+export const GET_RESTAURANT_FOR_CLIENT_SUCCESS =
+  'GET_RESTAURANT_FOR_CLIENT_SUCCESS';
+export const GET_RESTAURANT_FOR_CLIENT_ERROR =
+  'GET_RESTAURANT_FOR_CLIENT_ERROR';
+
+export const BLOCK_RESTAURANT_REQUEST = `${resource}/block/request`;
+export const BLOCK_RESTAURANT_SUCCESS = `${resource}/block/success`;
+export const BLOCK_RESTAURANT_ERROR = `${resource}/block/error`;
+
+export const CLEANUP_RESTAURANTS_PAGE = `${resource}/cleanup`;
+export const RESTAURANTS_LIST_FILTERS_CHANGED = `${resource}/filters/changed`;
+export const RESTAURANTS_LIST_FILTERS_CLEAR = `${resource}/filters/clear`;
+
+export const RESTAURANTS__SET_MANAGED_RESTAURANT =
+  'RESTAURANTS__SET_MANAGED_RESTAURANT';
+export const RESTAURANTS__CLEAR_MANAGED_RESTAURANT =
+  'RESTAURANTS__CLEAR_MANAGED_RESTAURANT';

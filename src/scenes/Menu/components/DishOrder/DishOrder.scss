@@ -1,0 +1,20 @@
+.dish-order__section {
+    width: 25%;
+
+    @media screen and (max-width: 1024px)  {
+        width: 40%;
+    }
+
+    @media screen and (max-width: 959px) {
+        width: 100%;
+    }
+}
+
+
+.procced-checkout__btn-link {
+    text-decoration: none;
+
+    button {
+        width: 100%;
+    }
+}

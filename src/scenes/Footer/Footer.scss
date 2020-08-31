@@ -1,0 +1,14 @@
+.app-footer {
+  height: 50px;
+  border-radius: 0;
+  background-color: #f06338;
+  color: white;
+
+  &__container,
+  &__info {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,29 @@
+.color-picker {
+  &__label {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  &__swatch {
+    margin-right: 20px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 1px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .1);
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  &__popover {
+    position: absolute;
+    z-index: 2;
+  }
+
+  &__cover {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}

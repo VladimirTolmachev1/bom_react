@@ -1,0 +1,29 @@
+.order-placement-tab {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__user-form {
+        width: 50%;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    &__paypal-title {
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+        width: 30%;
+        margin: {
+            top:0;
+            bottom:0;
+        }
+    }
+}
+
+.order-placement__form {
+    position: relative;
+}

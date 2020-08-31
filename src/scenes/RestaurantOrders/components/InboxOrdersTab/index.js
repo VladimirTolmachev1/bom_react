@@ -1,0 +1,1 @@
+export { InboxOrdersTab } from './InboxOrdersTab';

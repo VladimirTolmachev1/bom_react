@@ -1,0 +1,1 @@
+export RestaurantModal from './RestaurantModal';

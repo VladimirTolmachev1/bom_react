@@ -1,0 +1,16 @@
+.voc-table_header {
+  &-container {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-search.form-control {
+    width: 350px;
+  }
+
+  &-custom-filters {
+    flex-grow: 1;
+  }
+}

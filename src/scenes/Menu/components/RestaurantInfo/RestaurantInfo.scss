@@ -1,0 +1,94 @@
+.restaurant-info {
+    width: 72%;
+    min-height: 800px;
+    padding: {
+        left: 10px;
+        right: 10px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.info__hours-details {
+    flex-direction: column;
+    padding: 0px 10%;
+}
+
+.info__hours-panel {
+    margin-bottom: 20px;
+    margin-top: 0;
+    width: 40%;
+
+    @media screen and (max-width: 1023px) {
+        width: 50%;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+
+    h3 {
+      text-align: center;
+    }
+}
+
+.info__hours-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info__hour-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info__hours-row-day {
+    width: 50px;
+}
+
+// Restaurant info
+.info__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  
+    @media screen and (max-width: 768px)  {
+      flex-direction: column;
+    }
+  
+    &-item {
+      width: 35%;
+      margin-bottom: 20px;
+  
+      @media screen and (max-width: 768px)  {
+       width: 100%;
+      }
+  
+      &-contact {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 10px;
+  
+        span {
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+
+.info_display_none{
+  display: none !important;
+}
+
+.info__tag{
+  height: 20px;
+  margin-right: 5px;
+}
+  

@@ -1,0 +1,19 @@
+.day-schedule-row {
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+
+  &__same-day {
+    width: 150px;
+  }
+
+  .short-day-name {
+    width: 10%;
+  }
+
+  .app-checkbox__wrapper {
+    margin-bottom: -15px;
+  }
+}

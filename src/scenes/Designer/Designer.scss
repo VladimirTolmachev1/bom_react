@@ -1,0 +1,23 @@
+.designer {
+
+  &__form {
+    position: relative;
+    width: 100%;
+  }
+
+  &__control {
+    width: 40%;
+  }
+
+  .app-dropzone {
+    margin-bottom: 20px;
+  }
+
+  &__tabs {
+
+  }
+
+  &__tabs-content {
+    padding-top: 30px;
+  }
+}

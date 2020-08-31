@@ -1,0 +1,16 @@
+.restaurants-filters {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &__select {
+    width: 200px;
+    margin-right: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  &__clear-btn {
+    margin-left: auto !important;
+  }
+}

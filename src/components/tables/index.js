@@ -1,0 +1,1 @@
+export { SmallCell } from './SmallCell';

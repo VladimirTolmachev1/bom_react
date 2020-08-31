@@ -1,0 +1,1 @@
+export { AppColorPicker } from './AppColorPicker';

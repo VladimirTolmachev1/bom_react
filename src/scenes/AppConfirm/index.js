@@ -1,0 +1,1 @@
+export AppConfirm from './AppConfirm';

@@ -1,0 +1,29 @@
+.booked-item {
+    background-color: rgba(#f06338, .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    padding-right: 25px;
+    margin-bottom: 10px;
+
+    &__count {
+        font-size: 30px;
+        color: rgba(#f06338, .4);
+    }
+
+    &__description {
+        text-align: right;
+        padding-left: 10px;
+
+        &-name {
+            font-weight: 300;
+        }
+
+        &-price {
+            margin-top: 10px;
+            color: #f06338;
+            font-weight: bold;
+        }
+    }
+}

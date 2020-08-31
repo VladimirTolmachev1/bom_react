@@ -1,0 +1,1 @@
+export DishAutocomplete from './DishAutocomplete';

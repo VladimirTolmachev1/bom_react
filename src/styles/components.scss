@@ -1,0 +1,110 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-height: 100vh;
+
+  .app-container__main {
+    flex-grow: 1;
+    width: 100%;
+  }
+}
+
+.app-static-container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: {
+    top: 25px;
+    bottom: 25px;
+    left: 10px;
+    right: 10px;
+  }
+
+  @media screen and (max-width: 1140px) {
+    min-width: 1024px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    min-width: 768px;
+  }
+
+  @media screen and (max-width: 768px)  {
+    min-width: 300px;
+  }
+}
+
+.app-container-fluid {
+  min-width: 1140px;
+  width: 100%;
+
+  @media screen and (max-width: 1140px) {
+    min-width: 1024px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    min-width: 768px;
+  }
+
+  @media screen and (max-width: 768px)  {
+    min-width: 300px;
+  }
+}
+
+.header-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.app-meta-info {
+  font-size: 13px;
+  color: #b3b3b3;
+}
+
+.app-form-control {
+  width: 100%;
+
+  &__container {
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+  }
+
+  &__error {
+    color: #f44336 !important;
+  }
+}
+
+//Common auth form
+.auth {
+  padding-top: 100px;
+
+  &__title,
+  &__subtitle {
+    text-align: center;
+  }
+
+  &__form {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+
+    @media screen and (max-width: 768px)  {
+      width: 350px;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 35px !important;
+  }
+
+  &__field {
+    width: 100%;
+    margin-bottom: 20px !important;
+  }
+}
