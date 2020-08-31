@@ -1,1 +1,1 @@
-web node build/
+web: bin/boot
